@@ -21,7 +21,7 @@ Latest reproducible checks:
 - Pure Python unit suite: **55 passed** (domain and redirect safety, network policy with mocked DNS/socket, scanner check logic, scoring and offline assistant rules).
 - Python bytecode compilation (`python -m compileall -q backend`): passed.
 - TypeScript/TSX syntax transpilation: **4 files passed** using the installed TypeScript compiler API. This is syntax validation only, not a strict project type-check.
-- CSS parser: **539 top-level rules, 0 parse errors+*.
+- CSS parser: **539 top-level rules, 0 parse errors**.
 - Translation-key coverage check: all 218 direct literal `t()` calls in `App.tsx` were checked against the Persian dictionary (386 entries); no missing keys were found.
 - English ReportLab smoke test with an in-memory scan-shaped fixture: passed; output began with `%PDF-` and was 2,743 bytes.
 - Archive integrity and SHA-256 are checked when the final ZIP is created.

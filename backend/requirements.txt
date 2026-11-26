@@ -1,0 +1,14 @@
+Django>=5.2,<6.0
+djangorestframework>=3.16,<4.0
+djangorestframework-simplejwt>=5.5,<6.0
+django-cors-headers>=4.7,<5.0
+drf-spectacular>=0.28,<0.29
+dnspython>=2.7,<3.0
+reportlab>=4.4,<5.0
+python-dotenv>=1.1,<2.0
+psycopg[binary]>=3.2,<4.0
+pytest>=8.3,<9.0
+pytest-django>=4.11,<5.0
+coverage>=7.8,<8.0
+arabic-reshaper>=3.0.0,<4.0
+python-bidi>=0.6.0,<1.0
